@@ -67,13 +67,15 @@ h1{
     position: absolute;
     top:0;
     left: 1rem;
-    transition: transform 0.5s, top 0.5s, left 0.5s;
+    opacity: 0.4;
+    transition: transform 0.5s, top 0.5s, left 0.5s, opacity 0.5s;
 }
 
 .add-item:focus ~ .input_label,.add-item:not(:placeholder-shown).add-item:not(:focus)~.input_label{
     top:-1rem;
     left:-1rem;
     transform: scale(0.7);
+    opacity: 1;
 }
 .add-item:focus ~ .input_label,.add-item:not(:placeholder-shown).add-item:not(:focus)~.input_label{
     background-color: white;
