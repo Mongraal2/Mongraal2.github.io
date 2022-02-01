@@ -68,7 +68,7 @@ h1{
     top:0;
     left: 1rem;
     opacity: 0.4;
-    transition: transform 0.5s, top 0.5s, left 0.5s, opacity 0.5s;
+    transition: transform 0.5s, top 0.5s, left 0.5s, opacity 0.5s, background-color 0.5s;
 }
 
 .add-item:focus ~ .input_label,.add-item:not(:placeholder-shown).add-item:not(:focus)~.input_label{
@@ -76,9 +76,9 @@ h1{
     left:-1rem;
     transform: scale(0.7);
     opacity: 1;
+    background-color: white;
 }
 .add-item:focus ~ .input_label,.add-item:not(:placeholder-shown).add-item:not(:focus)~.input_label{
-    background-color: white;
 }
 .btn{
     font-size: inherit;
