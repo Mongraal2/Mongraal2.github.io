@@ -114,6 +114,7 @@ h1{
     margin-right: 10px;
 }
 .add-btn:hover{
+    margin-left: 5px;
     background-color: rgb(75, 233, 75);
 }
 .list-item{
